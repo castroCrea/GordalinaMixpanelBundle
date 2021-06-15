@@ -1,7 +1,7 @@
 {
-    "name": "gordalina/mixpanel-bundle",
+    "name": "castroCrea/mixpanel-bundle",
     "description": "Symfony bundle for Mixpanel",
-    "keywords": ["mixpanel", "bundle", "symfony"],
+    "keywords": ["mixpanel", "bundle", "symfony", "php8"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -10,6 +10,7 @@
             "email": "samuel.gordalina@gmail.com"
         }
     ],
+    "contributors": [{"name": "Paolo Castro"}],
     "require": {
         "php": ">=5.2",
         "symfony/framework-bundle": "^4.4 || ^5.0",
