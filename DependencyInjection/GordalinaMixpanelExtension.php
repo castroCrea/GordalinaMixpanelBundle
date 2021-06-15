@@ -53,7 +53,7 @@ class GordalinaMixpanelExtension extends Extension
         $registry = $container->getDefinition(ManagerRegistry::class);
 
         foreach ($config['projects'] as $name => $project) {
-            $id = "gordalina_mixpanel.{$name}";
+            $id = "castrocrea_mixpanel.{$name}";
 
             $container
                 ->register($id, 'Mixpanel')
@@ -68,11 +68,11 @@ class GordalinaMixpanelExtension extends Extension
             $registry->addMethodCall('setConfig', [$id, $project]);
         }
 
-        $container->setAlias('mixpanel.default', "gordalina_mixpanel.{$default}");
-        $container->setAlias('mixpanel', "gordalina_mixpanel.{$default}");
+        $container->setAlias('mixpanel.default', "castrocrea_mixpanel.{$default}");
+        $container->setAlias('mixpanel', "castrocrea_mixpanel.{$default}");
 
-        $registry->addMethodCall('addAlias', ['mixpanel.default', "gordalina_mixpanel.{$default}"]);
-        $registry->addMethodCall('addAlias', ['mixpanel', "gordalina_mixpanel.{$default}"]);
+        $registry->addMethodCall('addAlias', ['mixpanel.default', "castrocrea_mixpanel.{$default}"]);
+        $registry->addMethodCall('addAlias', ['mixpanel', "castrocrea_mixpanel.{$default}"]);
 
         foreach ($config['users'] as $class => $user) {
             $registry->addMethodCall('addUser', [$class, $user]);
@@ -81,10 +81,10 @@ class GordalinaMixpanelExtension extends Extension
 
     private function loadParameters(array $config, ContainerBuilder $container)
     {
-        $container->setParameter('gordalina_mixpanel.enabled', $config['enabled']);
-        $container->setParameter('gordalina_mixpanel.enable_profiler', $config['enable_profiler']);
-        $container->setParameter('gordalina_mixpanel.send_user_ip', $config['send_user_ip']);
-        $container->setParameter('gordalina_mixpanel.auto_update_user', $config['auto_update_user']);
-        $container->setParameter('gordalina_mixpanel.throw_on_user_data_attribute_failure', $config['throw_on_user_data_attribute_failure']);
+        $container->setParameter('castrocrea_mixpanel.enabled', $config['enabled']);
+        $container->setParameter('castrocrea_mixpanel.enable_profiler', $config['enable_profiler']);
+        $container->setParameter('castrocrea_mixpanel.send_user_ip', $config['send_user_ip']);
+        $container->setParameter('castrocrea_mixpanel.auto_update_user', $config['auto_update_user']);
+        $container->setParameter('castrocrea_mixpanel.throw_on_user_data_attribute_failure', $config['throw_on_user_data_attribute_failure']);
     }
 }

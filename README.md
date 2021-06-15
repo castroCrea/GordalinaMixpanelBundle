@@ -55,7 +55,7 @@ Enable the bundle's configuration in `app/config/config.yml`:
 ``` yaml
 # app/config/config.yml
 
-gordalina_mixpanel:
+castrocrea_mixpanel:
     projects:
         default:
             token: xxxxxxxxxxxxxxxxxxxx
@@ -64,7 +64,7 @@ gordalina_mixpanel:
 Usage
 -----
 
-This bundle registers a `gordalina_mixpanel.default`, `mixpanel.default` and `mixpanel`
+This bundle registers a `castrocrea_mixpanel.default`, `mixpanel.default` and `mixpanel`
 service which is an instance of `Mixpanel` (from the official library).
 You'll be able to do whatever you want with it.
 
@@ -111,9 +111,9 @@ this will be set automatically. This is done automatically provided you have con
 You are able to override this value if you wish.
 
 ```yaml
-# config/packages/gordalina_mixpanel.yaml
+# config/packages/castrocrea_mixpanel.yaml
 
-gordalina_mixpanel:
+castrocrea_mixpanel:
     projects:
         default:
             token: xxxxxxxxxx
@@ -343,7 +343,7 @@ You'll find the reference configuration below:
 ``` yaml
 # app/config/config*.yml
 
-gordalina_mixpanel:
+castrocrea_mixpanel:
     enabled: true                                        # defaults to true
     enable_profiler: %kernel.debug%                      # defaults to %kernel.debug%
     auto_update_user: %kernel.debug%                     # defaults to %kernel.debug%

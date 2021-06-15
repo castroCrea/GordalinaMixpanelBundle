@@ -42,7 +42,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('gordalina_mixpanel');
+        $treeBuilder = new TreeBuilder('castrocrea_mixpanel');
         $rootNode    = $treeBuilder->getRootNode();
 
         $rootNode
