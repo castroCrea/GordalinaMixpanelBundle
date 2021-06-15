@@ -1,5 +1,5 @@
 {
-    "name": "castroCrea/mixpanel-bundle",
+    "name": "castrocrea/mixpanel-bundle",
     "description": "Symfony bundle for Mixpanel",
     "keywords": ["mixpanel", "bundle", "symfony", "php8"],
     "type": "symfony-bundle",
