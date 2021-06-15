@@ -1,7 +1,7 @@
-GordalinaMixpanelBundle
+CarstrocreaMixpanelBundle
 =====================
 
-[![Build Status](https://travis-ci.org/gordalina/GordalinaMixpanelBundle.svg?branch=master)](https://travis-ci.org/gordalina/GordalinaMixpanelBundle)
+[![Build Status](https://travis-ci.org/gordalina/CarstrocreaMixpanelBundle.svg?branch=master)](https://travis-ci.org/gordalina/CarstrocreaMixpanelBundle)
 
 Integration of the [**Mixpanel**](https://github.com/mixpanel/mixpanel-php) library
 into Symfony.
@@ -45,7 +45,7 @@ Register the bundle in `config/bundles.php`:
 // config/bundles.php
     return [
         // ...
-        Gordalina\MixpanelBundle\GordalinaMixpanelBundle::class => ['all' => true],
+        Castrocrea\MixpanelBundle\CarstrocreaMixpanelBundle::class => ['all' => true],
     ];
 }
 ```
@@ -90,7 +90,7 @@ Track an event with a single annotation
 <?php
 // CheckoutController.php
 
-use Gordalina\MixpanelBundle\Annotation as Mixpanel;
+use Castrocrea\MixpanelBundle\Annotation as Mixpanel;
 
 class CheckoutController
 {
@@ -143,7 +143,7 @@ it will work.
 <?php
 // UserController.php
 
-use Gordalina\MixpanelBundle\Annotation as Mixpanel;
+use Castrocrea\MixpanelBundle\Annotation as Mixpanel;
 
 class UserController
 {
@@ -166,7 +166,7 @@ for evaluation.
 <?php
 // OrderController.php
 
-use Gordalina\MixpanelBundle\Annotation as Mixpanel;
+use Castrocrea\MixpanelBundle\Annotation as Mixpanel;
 
 class OrderController
 {
@@ -238,8 +238,8 @@ You can also send an event through symfony events when the annotations are not s
 #In controller
 namespace myNamespace;
 
-use Gordalina\MixpanelBundle\Annotation as Annotation;
-use Gordalina\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
+use Castrocrea\MixpanelBundle\Annotation as Annotation;
+use Castrocrea\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 // ...
@@ -279,7 +279,7 @@ It can be annoying to always have to put the same properties in your annotations
 namespace YourNamespace;
 
 use Doctrine\Common\Annotations\Reader;
-use Gordalina\MixpanelBundle\Annotation;
+use Castrocrea\MixpanelBundle\Annotation;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
 use Symfony\Component\Security\Core\Security;
 
@@ -332,7 +332,7 @@ Mixpanel bundle additionally integrates with Symfony2 profiler. You can
 check number of events and engagements sent, total execution time and other information.
 
 ![Example
-Toolbar](https://raw.githubusercontent.com/gordalina/GordalinaMixpanelBundle/master/Resources/doc/panel.png)
+Toolbar](https://raw.githubusercontent.com/gordalina/CarstrocreaMixpanelBundle/master/Resources/doc/panel.png)
 
 
 Reference Configuration
@@ -394,4 +394,4 @@ License
 This bundle is released under the MIT license. See the complete license in the
 bundle:
 
-[Resources/meta/LICENSE](https://github.com/gordalina/GordalinaMixpanelBundle/blob/master/Resources/meta/LICENSE)
+[Resources/meta/LICENSE](https://github.com/gordalina/CarstrocreaMixpanelBundle/blob/master/Resources/meta/LICENSE)

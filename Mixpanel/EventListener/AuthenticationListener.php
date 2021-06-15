@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Gordalina\MixpanelBundle\Mixpanel\EventListener;
+namespace Castrocrea\MixpanelBundle\Mixpanel\EventListener;
 
-use Gordalina\MixpanelBundle\Annotation\UpdateUser;
-use Gordalina\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
-use Gordalina\MixpanelBundle\Mixpanel\Security\Authentication;
+use Castrocrea\MixpanelBundle\Annotation\UpdateUser;
+use Castrocrea\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
+use Castrocrea\MixpanelBundle\Mixpanel\Security\Authentication;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;

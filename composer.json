@@ -24,7 +24,7 @@
         "friendsofphp/php-cs-fixer": "^2.16.4"
     },
     "autoload": {
-      "psr-4": { "Gordalina\\MixpanelBundle\\": "" }
+      "psr-4": { "Castrocrea\\MixpanelBundle\\": "" }
     },
     "config": {
         "bin-dir": "bin"

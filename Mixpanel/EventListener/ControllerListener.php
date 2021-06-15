@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Gordalina\MixpanelBundle\Mixpanel\EventListener;
+namespace Castrocrea\MixpanelBundle\Mixpanel\EventListener;
 
 use Doctrine\Common\Annotations\Reader;
 use Doctrine\Common\Util\ClassUtils;
-use Gordalina\MixpanelBundle\Annotation;
-use Gordalina\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
-use Gordalina\MixpanelBundle\Mixpanel\Security\UserData;
+use Castrocrea\MixpanelBundle\Annotation;
+use Castrocrea\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
+use Castrocrea\MixpanelBundle\Mixpanel\Security\UserData;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 use Symfony\Component\HttpFoundation\Request;

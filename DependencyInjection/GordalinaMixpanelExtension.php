@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Gordalina\MixpanelBundle\DependencyInjection;
+namespace Castrocrea\MixpanelBundle\DependencyInjection;
 
-use Gordalina\MixpanelBundle\Mixpanel\ManagerRegistry;
+use Castrocrea\MixpanelBundle\Mixpanel\ManagerRegistry;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader;

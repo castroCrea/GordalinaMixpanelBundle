@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Gordalina\MixpanelBundle\Mixpanel\EventListener;
+namespace spec\Castrocrea\MixpanelBundle\Mixpanel\EventListener;
 
-use Gordalina\MixpanelBundle\Mixpanel\Security\Authentication;
+use Castrocrea\MixpanelBundle\Mixpanel\Security\Authentication;
 use PhpSpec\ObjectBehavior;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
@@ -20,7 +20,7 @@ class AuthenticationListenerSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Gordalina\MixpanelBundle\Mixpanel\EventListener\AuthenticationListener');
+        $this->shouldHaveType('Castrocrea\MixpanelBundle\Mixpanel\EventListener\AuthenticationListener');
     }
 
     public function it_should_pass_authentication_token_to_authentication_service(

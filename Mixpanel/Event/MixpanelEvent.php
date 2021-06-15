@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Gordalina\MixpanelBundle\Mixpanel\Event;
+namespace Castrocrea\MixpanelBundle\Mixpanel\Event;
 
-use Gordalina\MixpanelBundle\Annotation\Annotation;
+use Castrocrea\MixpanelBundle\Annotation\Annotation;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Contracts\EventDispatcher\Event;
 

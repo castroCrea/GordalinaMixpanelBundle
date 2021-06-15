@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Gordalina\MixpanelBundle\Mixpanel\EventListener;
+namespace Castrocrea\MixpanelBundle\Mixpanel\EventListener;
 
-use Gordalina\MixpanelBundle\Annotation;
-use Gordalina\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
-use Gordalina\MixpanelBundle\Mixpanel\ManagerRegistry;
-use Gordalina\MixpanelBundle\Mixpanel\Security\UserData;
+use Castrocrea\MixpanelBundle\Annotation;
+use Castrocrea\MixpanelBundle\Mixpanel\Event\MixpanelEvent;
+use Castrocrea\MixpanelBundle\Mixpanel\ManagerRegistry;
+use Castrocrea\MixpanelBundle\Mixpanel\Security\UserData;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\Request;
 

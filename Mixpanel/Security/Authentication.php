@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Gordalina\MixpanelBundle\Mixpanel\Security;
+namespace Castrocrea\MixpanelBundle\Mixpanel\Security;
 
-use Gordalina\MixpanelBundle\Mixpanel\ManagerRegistry;
-use Gordalina\MixpanelBundle\Mixpanel\Mixpanel\Flusher;
+use Castrocrea\MixpanelBundle\Mixpanel\ManagerRegistry;
+use Castrocrea\MixpanelBundle\Mixpanel\Mixpanel\Flusher;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 
 class Authentication
