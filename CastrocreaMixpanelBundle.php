@@ -15,6 +15,6 @@ namespace Castrocrea\MixpanelBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class CarstrocreaMixpanelBundle extends Bundle
+class CastrocreaMixpanelBundle extends Bundle
 {
 }
