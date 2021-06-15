@@ -5,7 +5,6 @@ declare(strict_types=1);
 /*
  * This file is part of the mixpanel bundle.
  *
- * (c) Samuel Gordalina <https://github.com/gordalina/mixpanel-bundle>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -25,7 +24,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class GordalinaMixpanelExtension extends Extension
+class CastrocreaMixpanelExtension extends Extension
 {
     /**
      * {@inheritdoc}

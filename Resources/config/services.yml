@@ -33,4 +33,4 @@ services:
 
     Castrocrea\MixpanelBundle\Mixpanel\DataCollector\MixpanelDataCollector:
         tags:
-            - { name: data_collector, template: "@GordalinaMixpanel/DataCollector/mixpanel.html.twig", id: "mixpanel" }
+            - { name: data_collector, template: "@CastrocreaMixpanel/DataCollector/mixpanel.html.twig", id: "mixpanel" }

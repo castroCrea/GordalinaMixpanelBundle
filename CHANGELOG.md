@@ -1,26 +1,26 @@
-## [v3.4.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/releases/tag/3.4.0)
+## [v3.4.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/releases/tag/3.4.0)
 
-[3.3.0...3.4.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/compare/3.3.0...3.4.0)
+[3.3.0...3.4.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/compare/3.3.0...3.4.0)
 
 ### Features
 
-- Added a new configuration option `send_user_ip` which decides whether to send the user ip to mix panel. [#19](https://github.com/gordalina/CarstrocreaMixpanelBundle/pull/19)
+- Added a new configuration option `send_user_ip` which decides whether to send the user ip to mix panel. [#19](https://github.com/castrocrea/CarstrocreaMixpanelBundle/pull/19)
 -
-## [v3.3.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/releases/tag/3.3.0)
+## [v3.3.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/releases/tag/3.3.0)
 
-[3.2.0...3.3.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/compare/3.2.0...3.3.0)
+[3.2.0...3.3.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/compare/3.2.0...3.3.0)
 
 ### Security Fixes
 
 - Upgraded `symfony/http-kernel` to `^4.4.13 || 5.1.5` to address [CVE-2020-15094](https://github.com/advisories/GHSA-754h-5r27-7x3r)
 
-## [v3.2.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/releases/tag/3.2.0)
+## [v3.2.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/releases/tag/3.2.0)
 
-[3.1.0...3.2.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/compare/3.1.0...3.2.0)
+[3.1.0...3.2.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/compare/3.1.0...3.2.0)
 
 ### Features
 
-- Used `Profile properties`. [#16](https://github.com/gordalina/CarstrocreaMixpanelBundle/pull/16) by @RomulusED69
+- Used `Profile properties`. [#16](https://github.com/castrocrea/CarstrocreaMixpanelBundle/pull/16) by @RomulusED69
 
 ### Deprecations
 
@@ -52,18 +52,18 @@ App\Entity\User:
   $phone: phone
 ```
 
-## [v3.1.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/releases/tag/3.1.0)
+## [v3.1.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/releases/tag/3.1.0)
 
-[3.0.0...3.1.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/compare/3.0.0...3.1.0)
+[3.0.0...3.1.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/compare/3.0.0...3.1.0)
 
 ### Features
 
-- Add `throw_on_user_data_attribute_failure` parameter. [#12](https://github.com/gordalina/CarstrocreaMixpanelBundle/pull/12) by @RomulusED69
-- Condition evaluation in Actions. [#10](https://github.com/gordalina/CarstrocreaMixpanelBundle/pull/10) by @RomulusED69
+- Add `throw_on_user_data_attribute_failure` parameter. [#12](https://github.com/castrocrea/CarstrocreaMixpanelBundle/pull/12) by @RomulusED69
+- Condition evaluation in Actions. [#10](https://github.com/castrocrea/CarstrocreaMixpanelBundle/pull/10) by @RomulusED69
 
-## [v3.0.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/releases/tag/3.0.0)
+## [v3.0.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/releases/tag/3.0.0)
 
-[2.6.2.3...3.0.0](https://github.com/gordalina/CarstrocreaMixpanelBundle/compare/2.6.2.3...3.0.0)
+[2.6.2.3...3.0.0](https://github.com/castrocrea/CarstrocreaMixpanelBundle/compare/2.6.2.3...3.0.0)
 
 ### Features
 

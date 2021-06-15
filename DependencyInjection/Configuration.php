@@ -5,7 +5,6 @@ declare(strict_types=1);
 /*
  * This file is part of the mixpanel bundle.
  *
- * (c) Samuel Gordalina <https://github.com/gordalina/mixpanel-bundle>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -187,8 +186,8 @@ class Configuration implements ConfigurationInterface
     {
         if (method_exists(BaseNode::class, 'getDeprecation')) {
             return [
-                'gordalina/mixpanel-bundle',
-                '3.2',
+                'castrocrea/mixpanel-bundle',
+                '3.9',
                 $message,
             ];
         }

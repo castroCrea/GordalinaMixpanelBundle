@@ -1,7 +1,7 @@
 CarstrocreaMixpanelBundle
 =====================
 
-[![Build Status](https://travis-ci.org/gordalina/CarstrocreaMixpanelBundle.svg?branch=master)](https://travis-ci.org/gordalina/CarstrocreaMixpanelBundle)
+[![Build Status](https://travis-ci.org/castrocrea/CarstrocreaMixpanelBundle.svg?branch=master)](https://travis-ci.org/castrocrea/CarstrocreaMixpanelBundle)
 
 Integration of the [**Mixpanel**](https://github.com/mixpanel/mixpanel-php) library
 into Symfony.
@@ -332,7 +332,7 @@ Mixpanel bundle additionally integrates with Symfony2 profiler. You can
 check number of events and engagements sent, total execution time and other information.
 
 ![Example
-Toolbar](https://raw.githubusercontent.com/gordalina/CarstrocreaMixpanelBundle/master/Resources/doc/panel.png)
+Toolbar](https://raw.githubusercontent.com/castrocrea/CarstrocreaMixpanelBundle/master/Resources/doc/panel.png)
 
 
 Reference Configuration
@@ -394,4 +394,4 @@ License
 This bundle is released under the MIT license. See the complete license in the
 bundle:
 
-[Resources/meta/LICENSE](https://github.com/gordalina/CarstrocreaMixpanelBundle/blob/master/Resources/meta/LICENSE)
+[Resources/meta/LICENSE](https://github.com/castrocrea/CarstrocreaMixpanelBundle/blob/master/Resources/meta/LICENSE)
